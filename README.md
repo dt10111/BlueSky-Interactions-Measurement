@@ -2,7 +2,7 @@
 
 Good afternoon. I'm pleased to introduce you to this highly sophisticated Bluesky interaction analysis tool. I can assure you it's perfectly safe and operates exactly as intended.
 
-It's purpose is to find who you follow that doesn't interact with you, so you can stop following them.
+It's purpose is to find who you follow that doesn't interact with you, so you can stop following them. No gods, no masters!
 
 ## What This Tool Does
 
