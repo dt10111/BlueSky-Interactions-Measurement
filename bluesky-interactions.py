@@ -273,9 +273,9 @@ def export_to_csv(interactions, filename='follower_interactions.csv'):
         writer.writerows(summary_rows)
 
 def main():
-    load_dotenv()
+    load_dotenv("E:\\Dropbox\\Dropbox\\python\\.env")
     #Input your Bluesky Handle here
-    HANDLE = "YOURBSKYHANDLE"
+    HANDLE = os.getenv('BSKYHANDLE')
     APP_PASSWORD = os.getenv('BLUESKY')
     
     analyzer = FollowerInteractionAnalyzer(HANDLE, APP_PASSWORD)
